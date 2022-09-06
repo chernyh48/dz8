@@ -21,5 +21,5 @@ while True:
 n = 1
 for i in result_dict:
     with open("result_task_3.txt", "a", encoding='utf-8') as f:
-        f.write(f"№{n}{i}\n{result_dict[i]['title']}\n{result_dict[i]['link']}\n")
+        f.write(f"№{n}\n{i}\n{result_dict[i]['title']}\n{result_dict[i]['link']}\n")
     n += 1
