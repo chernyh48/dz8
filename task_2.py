@@ -24,6 +24,6 @@ class YaUploader:
 if __name__ == '__main__':
     # Файлы загружаются по путям из файла file_list.txt
     path_to_file = "file_list.txt"
-    ya_token = "y0_AgAAAAAni3ryAADLWwAAAADODpXp3s8LPyLPShqswfhDbIX0QmTyBJs"
+    ya_token = ""
     uploader = YaUploader(ya_token)
     uploader.upload(path_to_file)
